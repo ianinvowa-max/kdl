@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сдать анализы - медицинский сервис</title>
+  <meta
+    name="description"
+    content="Подбор лабораторных анализов, удобная запись и консультация с AI-агентом в чате."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="topline">
+    <div class="container topline__inner">
+      <span>Ростов-на-Дону</span>
+      <a href="tel:+78001234567">8 800 123-45-67</a>
+      <span>Ежедневно: 07:00 - 20:00</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#">ANALIZY LAB</a>
+      <form class="search" action="#" method="get">
+        <input type="text" placeholder="Поиск по анализам" />
+        <button type="submit">Найти</button>
+      </form>
+      <a class="header__link" href="#chat">Чат с агентом</a>
+    </div>
+    <nav class="nav">
+      <div class="container nav__inner">
+        <a href="#services">Анализы</a>
+        <a href="#promo">Акции</a>
+        <a href="#chat">Онлайн-консультация</a>
+        <a href="#advantages">Преимущества</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__badge">Здоровое отношение к людям</p>
+          <h1>Сдайте анализы с поддержкой AI-ассистента</h1>
+          <p>
+            Подберем нужные исследования, расскажем про подготовку и подскажем следующий шаг.
+            Основной сервис - быстрый чат с агентом.
+          </p>
+          <div class="hero__buttons">
+            <a class="btn btn--primary" href="#chat">Открыть чат</a>
+            <a class="btn btn--light" href="#services">Популярные анализы</a>
+          </div>
+        </div>
+        <aside class="hero__card">
+          <h3>Почему удобно</h3>
+          <ul>
+            <li>Подбор анализов за 2-3 минуты</li>
+            <li>Поддержка текстом и голосом</li>
+            <li>Рекомендации перед сдачей</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Популярные направления</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Базовый check-up</h3>
+            <p>Общий анализ крови, биохимия, витамин D и гормоны щитовидной железы.</p>
+          </article>
+          <article class="card">
+            <h3>Женское здоровье</h3>
+            <p>Комплекс для оценки гормонального фона, железа и ключевых витаминов.</p>
+          </article>
+          <article class="card">
+            <h3>Аллергология</h3>
+            <p>Панели распространенных аллергенов для взрослых и детей.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="promo" class="section section--pink">
+      <div class="container promo">
+        <div>
+          <h2>Акция для новых клиентов</h2>
+          <p>Скидка 15% на первый заказ анализов при оформлении через сайт.</p>
+        </div>
+        <a class="btn btn--primary" href="#chat">Получить подбор через чат</a>
+      </div>
+    </section>
+
+    <section id="chat" class="section section--chat">
+      <div class="container">
+        <h2>Чат с медицинским AI-агентом</h2>
+        <p class="section__hint">Спросите, какие анализы лучше сдать в вашей ситуации.</p>
+        <div class="widget-shell">
+          <iframe
+            src="https://app.targetai.ai/widget?agent=5d6fb236-1d46-487a-9d48-2767d96076f8&server=https%3A%2F%2Fapp.targetai.ai&token=https%3A%2F%2Fapp.targetai.ai&communicationInput=text&communicationOutput=text&allowed=text"
+            title="TargetAI Widget"
+            name="targetai-widget"
+            loading="lazy"
+            allow="autoplay *"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="targetai-frame"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="advantages" class="section">
+      <div class="container">
+        <h2>Мы знаем, что значит надежность</h2>
+        <div class="adv-grid">
+          <div class="adv-item">Сеть лабораторий по всей России</div>
+          <div class="adv-item">Точные стандартизированные исследования</div>
+          <div class="adv-item">Простые инструкции без сложных терминов</div>
+          <div class="adv-item">Быстрый доступ к консультации в чате</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>ООО "Анализы Онлайн"</p>
+      <p>Информация на сайте не заменяет консультацию врача.</p>
+    </div>
+  </footer>
+</body>
+</html>
